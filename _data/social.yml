@@ -8,10 +8,9 @@
 - title: linkedin
   url: https://www.linkedin.com/in/ahmed-hammad-51994267/
   icon: fab fa-linkedin
-
 - title: facebook
   url: https://www.facebook.com/jacstory.jacstory
   icon: fab fa-facebook
-
-
-  
+- title: Youtube
+  url: https://www.youtube.com/channel/UCjbj7z-luFODaQV4ONGEJbQ
+  icon: fab fa-youtube
