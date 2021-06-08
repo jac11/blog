@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/images/InvestigatingWindows.png
+image: /assets/images/EncryptionCrypto101.png
 categories: TryHackMe
 ---
 this is post 

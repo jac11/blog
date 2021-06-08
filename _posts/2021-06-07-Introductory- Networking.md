@@ -1,6 +1,5 @@
 ---
 layout: post
-image: /assets/images/InvestigatingWindows.png
+image: /assets/images/IntroductoryNetworking.png
+categories: TryHackMe
 ---
-this is post 
-![]({{ page.image | relative_url }})

@@ -1,6 +1,4 @@
 ---
 layout: post
-image: /assets/images/InvestigatingWindows.png
+image: /assets/images/sectechnology.png
 ---
-this is post 
-![]({{ page.image | relative_url }})
