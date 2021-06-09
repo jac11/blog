@@ -11,7 +11,7 @@ Hi all
 I am Ahmed Hammad   
 from Egypt  
 my current work is as a chef at the kitchen for over 10 years  
-I interested in infosec I learn from scratch  all the basic infosec and  
+I interested in infosec I learn from scratch  the basic infosec and  
 I  do more learning everyday by reading and practice  
 I am coding in  python so I have 16 repo on Github  
 I am  so happy I am one of the thousands  of developer have code stored  in Arctic Code Vault 
