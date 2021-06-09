@@ -6,6 +6,9 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
+    <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    <link rel="shortcut icon" type="image/png" href="{{ 'jacstory.png' | prepend: site.baseurl }}" >
+    
   </header>
 
   <div class="post-content">
