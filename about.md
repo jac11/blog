@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 image: /assets/images/about.png
-logo: jacstory.png
+logo: ./jacstory.png
 ---
 ![]({{ page.image11 | relative_url }})
 
