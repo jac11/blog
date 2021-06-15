@@ -16,6 +16,10 @@ image12: /assets/images/network/12.png
 image13: /assets/images/network/13.png
 image14: /assets/images/network/14.png
 image15: /assets/images/network/15.png
+image16: /assets/images/network/16.png
+image17: /assets/images/network/17.png
+image18: /assets/images/network/18.png
+image19: /assets/images/network/19.png
 categories: TryHackMe
 ---
 # *Welcome To  Introductory Networking tryhackme room 'writeup'*
@@ -174,3 +178,121 @@ acknowledgement bit called ACK
 
 ----------------------------------------------------------------------
 
+## Task 5 : Networking Tools Ping 
+
+<h3 style='color:red'> Qesution 1 : What command would you use to ping the bbc.co.uk website?</h3>
+<h3 style='color:green'> Correct Answer  : ping bbc.co.uk  </h3>
+
+
+<h3 style='color:red'> Qesution 2 : Ping muirlandoracle.co.uk What is the IPv4 address??</h3>
+<h3 style='color:green'> Correct Answer  : 217.160.0.152 </h3>
+ping muirlandoracle.co.uk
+PING muirlandoracle.co.uk (217.160.0.152) 56(84) bytes of data.
+64 bytes from 217-160-0-152.elastic-ssl.ui-r.com (217.160.0.152): icmp_seq=1 ttl=55 time=122 ms
+64 bytes from 217-160-0-152.elastic-ssl.ui-r.com (217.160.0.152): icmp_seq=2 ttl=55 time=122 ms
+
+
+<h3 style='color:red'> Qesution 3: What switch lets you change the interval of sent ping requests?</h3>
+<h3 style='color:green'> Correct Answer  : -i </h3>
+open terminal the type man ping 
+
+![]({{ page.image16 | relative_url }})
+
+<h3 style='color:red'> Qesution 4 : What switch would allow you to restrict requests to IPv4?</h3>
+<h3 style='color:green'> Correct Answer  : -4  </h3>
+open terminal and type ping --help
+
+![]({{ page.image17 | relative_url }})
+
+<h3 style='color:red'> Qesution 5 : What switch would give you a more verbose output?</h3>
+<h3 style='color:green'> Correct Answer  : -v  </h3>
+open terminal and type ping --help
+
+![]({{ page.image18 | relative_url }})
+
+
+----------------------------------------------------------
+
+## Task 6 : Networking Tools Traceroute 
+
+<h3 style='color:red'> Qesution 1: use traceroute on tryhackme.com / Can you see the path your request has taken?</h3>
+<h3 style='color:green'> Correct Answer  : No answer needed </h3>
+
+
+<h3 style='color:red'> Qesution 2: What switch would you use to specify an interface when using Traceroute?</h3>
+<h3 style='color:green'> Correct Answer  : -i </h3>
+
+open terminal and type traceroute --help 
+
+<h3 style='color:red'> Qesution 3: What switch would you use if you wanted to use TCP SYN requests when tracing the route?</h3>
+<h3 style='color:green'> Correct Answer  : -T </h3>
+
+open terminal and  type traceroute --help 
+
+![]({{ page.image19 | relative_url }})
+
+<h3 style='color:red'> Qesution 4: [Lateral Thinking] Which layer of the TCP/IP model will traceroute run on by default (Windows)?</h3>
+<h3 style='color:green'> Correct Answer  : Internet </h3>
+
+----------------------------------------------------------------------
+
+## Task 7  : Networking Tools WHOIS 
+
+<h3 style='color:red'> Qesution 1: Perform a whois search on facebook.com / Can you see the path your request has taken?</h3>
+<h3 style='color:green'> Correct Answer  : No answer needed  </h3>
+
+<h3 style='color:red'> Qesution 2: What is the registrant postal code for facebook.com?</h3>
+<h3 style='color:green'> Correct Answer  : 94025 </h3>
+
+
+<h3 style='color:red'> Qesution 3: When was the facebook.com domain first registered?</h3>
+<h3 style='color:green'> Correct Answer  : 29/03/1997 </h3>
+
+<h3 style='color:red'> Qesution 4: Perform a whois search on microsoft.com</h3>
+<h3 style='color:green'> Correct Answer  : No answer needed </h3>
+
+<h3 style='color:red'> Qesution 5: Which city is the registrant based in?</h3>
+<h3 style='color:green'> Correct Answer  : Redmondd </h3>
+
+<h3 style='color:red'> Qesution 6: [OSINT] What is the name of the golf course that is near the registrant address for microsoft.com?</h3>
+<h3 style='color:green'> Correct Answer  : Bellevue Golf Course </h3>
+
+<h3 style='color:red'> Qesution 7: What is the registered Tech Email for microsoft.com?</h3>
+<h3 style='color:green'> Correct Answer  : msnhst@microsoft.com </h3>
+
+
+---------------------------------------------------------------------
+
+## Task 8  : Networking Tools Dig  
+
+<h3 style='color:red'> Qesution 1: What is DNS short for?</h3>
+<h3 style='color:green'> Correct Answer  : Domain Name System</h3>
+
+<h3 style='color:red'> Qesution 2: What is the first type of DNS server your computer would query when you search for a domain?</h3>
+<h3 style='color:green'> Correct Answer  : Recursive </h3>
+
+<h3 style='color:red'> Qesution 3: What type of DNS server contains records specific to domain extensions (i.e. .com, .co.uk*, etc)*? Use the long version of the name.</h3>
+<h3 style='color:green'> Correct Answer  : Top-Level Domain</h3>
+
+
+<h3 style='color:red'> Qesution 4: Where is the very first place your computer would look to find the IP address of a domain?</h3>
+<h3 style='color:green'> Correct Answer  : Local Cache </h3>
+
+
+<h3 style='color:red'> Qesution 5: [Research] Google runs two public DNS servers. One of them can be queried with the IP 8.8.8.8, what is the IP address of the other one?</h3>
+<h3 style='color:green'> Correct Answer  : 8.8.8.8 </h3>
+
+<h3 style='color:red'> Qesution 6: If a DNS query has a TTL of 24 hours, what number would the dig query show?</h3>
+<h3 style='color:green'> Correct Answer  : 86400 </h3>
+
+-------------------------------------------------------------------------------
+
+## ## Task 9  :  Networking Tools Dig 
+
+<h3 style='color:red'> Qesution 1: Read the final thoughts</h3>
+<h3 style='color:green'> Correct Answer  : No answer needed </h3>
+
+--------------------------------------------------------------------------
+
+## the End 
+ 
