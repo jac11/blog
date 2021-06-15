@@ -16,10 +16,6 @@ image12: /assets/images/network/12.png
 image13: /assets/images/network/13.png
 image14: /assets/images/network/14.png
 image15: /assets/images/network/15.png
-image16: /assets/images/network/16.png
-image17: /assets/images/network/17.png
-image18: /assets/images/network/18.png
-image19: /assets/images/network/19.png
 categories: TryHackMe
 ---
 # *Welcome To  Introductory Networking tryhackme room 'writeup'*
