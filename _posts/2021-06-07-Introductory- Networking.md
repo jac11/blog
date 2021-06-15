@@ -287,7 +287,7 @@ open terminal and  type traceroute --help
 
 -------------------------------------------------------------------------------
 
-## ## Task 9  :  Networking Tools Dig 
+## Task 9  :  Networking Tools Dig 
 
 <h3 style='color:red'> Qesution 1: Read the final thoughts</h3>
 <h3 style='color:green'> Correct Answer  : No answer needed </h3>
