@@ -2,7 +2,9 @@ title: jacstory
 description: infosec researcher
 author: AhmedHammad
 avatar: /logo.png
+skin: midnight
 email: rootx1982@gmail.com
+
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
