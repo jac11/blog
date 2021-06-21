@@ -20,6 +20,10 @@ image16: /assets/images/network/16.png
 image17: /assets/images/network/17.png
 image18: /assets/images/network/18.png
 image19: /assets/images/network/19.png
+image20: /assets/images/network/20.png
+image21: /assets/images/network/21.png
+image22: /assets/images/network/22.png
+image23: /assets/images/network/23.png
 categories: TryHackMe
 ---
 # *Welcome To  Introductory Networking tryhackme room 'writeup'*
@@ -243,23 +247,33 @@ open terminal and  type traceroute --help
 
 <h3 style='color:red'> Qesution 2: What is the registrant postal code for facebook.com?</h3>
 <h3 style='color:green'> Correct Answer  : 94025 </h3>
+i will use whois and grep Postal     
+whois facebook.com | grep Postal
 
-
+![]({{ page.image20 | relative_url }})
 <h3 style='color:red'> Qesution 3: When was the facebook.com domain first registered?</h3>
 <h3 style='color:green'> Correct Answer  : 29/03/1997 </h3>
+whois facebook | grep Date
 
+![]({{ page.image21 | relative_url }})
 <h3 style='color:red'> Qesution 4: Perform a whois search on microsoft.com</h3>
 <h3 style='color:green'> Correct Answer  : No answer needed </h3>
 
 <h3 style='color:red'> Qesution 5: Which city is the registrant based in?</h3>
-<h3 style='color:green'> Correct Answer  : Redmondd </h3>
+<h3 style='color:green'> Correct Answer  : Redmond </h3>
 
 <h3 style='color:red'> Qesution 6: [OSINT] What is the name of the golf course that is near the registrant address for microsoft.com?</h3>
 <h3 style='color:green'> Correct Answer  : Bellevue Golf Course </h3>
+google
+redmond golf course microsoft one way
+
+![]({{ page.image22 | relative_url }})
 
 <h3 style='color:red'> Qesution 7: What is the registered Tech Email for microsoft.com?</h3>
 <h3 style='color:green'> Correct Answer  : msnhst@microsoft.com </h3>
 
+whois microsoft.com | grep Tech   
+msnhst@microsoft.com 
 
 ---------------------------------------------------------------------
 
@@ -270,24 +284,30 @@ open terminal and  type traceroute --help
 
 <h3 style='color:red'> Qesution 2: What is the first type of DNS server your computer would query when you search for a domain?</h3>
 <h3 style='color:green'> Correct Answer  : Recursive </h3>
+Assuming the address hasn't already been found, your computer will then send a request to what's known as a recursive DNS server. These will automatically be known to the router on your network.
 
 <h3 style='color:red'> Qesution 3: What type of DNS server contains records specific to domain extensions (i.e. .com, .co.uk*, etc)*? Use the long version of the name.</h3>
 <h3 style='color:green'> Correct Answer  : Top-Level Domain</h3>
 
+The root name servers essentially keep track of the DNS servers in the next level down, choosing an appropriate one to redirect your request to. These lower level servers are called Top-Level Domain servers.
 
 <h3 style='color:red'> Qesution 4: Where is the very first place your computer would look to find the IP address of a domain?</h3>
 <h3 style='color:green'> Correct Answer  : Local Cache </h3>
-
+You make a request to a website. The first thing that your computer does is check its local cache to see if it's already got an IP address stored for the website; if it does, great. If not, it goes to the next stage of the process.
 
 <h3 style='color:red'> Qesution 5: [Research] Google runs two public DNS servers. One of them can be queried with the IP 8.8.8.8, what is the IP address of the other one?</h3>
 <h3 style='color:green'> Correct Answer  : 8.8.8.8 </h3>
+ open google search for   
+google Public dns ipv4
+
+![]({{ page.image23 | relative_url }})
 
 <h3 style='color:red'> Qesution 6: If a DNS query has a TTL of 24 hours, what number would the dig query show?</h3>
 <h3 style='color:green'> Correct Answer  : 86400 </h3>
 
 -------------------------------------------------------------------------------
 
-## Task 9  :  Networking Tools Dig 
+## ## Task 9  :  Networking Tools Dig 
 
 <h3 style='color:red'> Qesution 1: Read the final thoughts</h3>
 <h3 style='color:green'> Correct Answer  : No answer needed </h3>
