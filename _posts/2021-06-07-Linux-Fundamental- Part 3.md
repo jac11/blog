@@ -7,23 +7,6 @@ image3: /assets/images/Linux/3.png
 image4: /assets/images/Linux/4.png
 image5: /assets/images/Linux/5.png
 image6: /assets/images/Linux/6.png
-image7: /assets/images/Linux/7.png
-image8: /assets/images/Linux/8.png
-image9: /assets/images/Linux/9.png
-image10: /assets/images/Linux/10.png
-image11: /assets/images/Linux/11.png
-image12: /assets/images/Linux/12.png
-image13: /assets/images/Linux/13.png
-image14: /assets/images/Linux/14.png
-image15: /assets/images/Linux/15.png
-image16: /assets/images/Linux/16.png
-image17: /assets/images/Linux/17.png
-image18: /assets/images/Linux/18.png
-image19: /assets/images/Linux/19.png
-image20: /assets/images/Linux/20.png
-image21: /assets/images/Linux/21.png
-image22: /assets/images/Linux/22.png
-image23: /assets/images/Linux/23.png
 categories: TryHackMe
 ---
 # *Welcome To  Linux Fundamentals Part3 'writeup'*
