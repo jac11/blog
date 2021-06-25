@@ -159,9 +159,9 @@ ____________________________________________________________________
 <h3 style='color:green'> Correct Answer  : No answer needed </h3>
 
 <h3 style='color:red'> Qesution 2 : What is the IP address of the user who visited the site? </h3>
-<h3 style='color:green'> Correct Answer  : 10.9.232.111 </h3>
-cd /var/log/apache2/  
-cat access.log.1
+<h3 style='color:green'> Correct Answer  : 10.9.232.111 </h3>   
+cd /var/log/apache2/       
+cat access.log.1     
 
 
 <h3 style='color:red'> Qesution 3 : What file did they access? </h3>
