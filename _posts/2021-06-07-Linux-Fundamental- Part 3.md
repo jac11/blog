@@ -46,6 +46,7 @@ _______________________________________________
 <h3 style='color:red'> Qesution 1 : I've logged into the Linux Fundamentals Part 3 machine using SSH and have deployed the AttackBox successfully!</h3>
 <h3 style='color:green'> Correct Answer  : No answer needed  </h3> 
  ![]({{ page.image2 | relative_url }})
+ 
  ------------------------------------------------------------------------------------------------
 
  ## Task 3  : Terminal Text Editors 
