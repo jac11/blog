@@ -7,6 +7,7 @@ image3: /assets/images/Linux/3.png
 image4: /assets/images/Linux/4.png
 image5: /assets/images/Linux/5.png
 image6: /assets/images/Linux/6.png
+image7: /assets/images/Linux/7.png
 categories: TryHackMe
 ---
 # *Welcome To  Linux Fundamentals Part3 'writeup'*
@@ -61,8 +62,8 @@ nano tryhackme
  
 <h3 style='color:red'> Qesution 2 : Edit "task3" located in "tryhackme"'s home directory using Nano. What is the flag?</h3>
 <h3 style='color:green'> Correct Answer  : THM{TEXT_EDITORS}  </h3>
-ls 
-nano task3
+ls       
+nano task3   
 THM{TEXT_EDITORS}
 
 ________________________________________________________________________________________________________________________________________
@@ -105,11 +106,13 @@ Use Ctrl + C to stop the Python3 HTTPServer module once you are finished.
 <h3 style='color:red'> Qesution 3 : If we wanted to cleanly kill a process, what signal would we send it ?</h3>
 <h3 style='color:green'> Correct Answer  : SIGTERM </h3>
 SIGTERM - Kill the process, but allow it to do some cleanup tasks beforehand
+
 ![]({{ page.image4 | relative_url }})
 
 <h3 style='color:red'> Qesution 4 : Locate the process that is running on the deployed instance (10.10.79.225). What flag is given?</h3>
 <h3 style='color:green'> Correct Answer  : THM{PROCESSES}  </h3>
 ps -uax | grep THM
+
 ![]({{ page.image5 | relative_url }})
 <h3 style='color:red'> Qesution 5 : What command would we use to stop the service "myservice"?</h3>
 <h3 style='color:green'> Correct Answer  : systemctl stop myservice  </h3>
@@ -157,6 +160,9 @@ ____________________________________________________________________
 
 <h3 style='color:red'> Qesution 2 : What is the IP address of the user who visited the site? </h3>
 <h3 style='color:green'> Correct Answer  : 10.9.232.111 </h3>
+cd /var/log/apache2/
+cat access.log.1
+
 
 <h3 style='color:red'> Qesution 3 : What file did they access? </h3>
 <h3 style='color:green'> Correct Answer  : catsanddogs.jpg </h3>
