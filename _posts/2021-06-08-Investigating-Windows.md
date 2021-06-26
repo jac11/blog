@@ -50,7 +50,7 @@ Task 1  : Investigating Windows
 
 *  So many ways to know about the OS info  
 I going  to use Powershell Command and do  pipe and grep same like Linux by use  Select-String Module, to get the result easy way
- <p style='color:white'>  * system info | Select-String windows </p>
+ <p style='color:yellow'>   system info | Select-String windows </p>
 ![]({{ page.image1 | relative_url }})
 
 ----------------------------------------------------------------------------
