@@ -50,7 +50,7 @@ Task 1  : Investigating Windows
 
 *  So many ways to know about the OS info  
 I going  to use Powershell Command and do  pipe and grep same like Linux by use  Select-String Module, to get the result easy way
- <p style='color:yellow'>   system info | Select-String windows </p>
+ <p style='color:yellow'> system info | Select-String windows </p>
 ![]({{ page.image1 | relative_url }})
 
 ----------------------------------------------------------------------------
@@ -59,7 +59,7 @@ I going  to use Powershell Command and do  pipe and grep same like Linux by use 
 <h3 style='color:red'> Qesution 2 : Which user logged in last ?</h3>
 <h3 style='color:green'> Correct Answer  : Administrator  </h3> 
 I am  login as Administrtor so last login Administrator  
-<p style='color:white'>  net user administrator  | findstr /B /C:"last logon"</p>
+<p style='color:yellow'>  net user administrator  | findstr /B /C:"last logon"</p>
 ![]({{ page.image2 | relative_url }})
  
  ---------------------------------------------------------------------------
@@ -68,7 +68,7 @@ I am  login as Administrtor so last login Administrator
 Answer format: MM/DD/YYYY H:MM:SS AM/PM </h3>
 <h3 style='color:green'> Correct Answer  : 03/02/2019 5:48:32 PM  </h3> 
 * I going to  use same command but change the user name to john :
-<p style='color:white'>  net user john | findstr /B /C:"last logon"</p>
+<p style='color:yellow'>  net user john | findstr /B /C:"last logon"</p>
 
 ![]({{ page.image3 | relative_url }})
 
@@ -82,7 +82,7 @@ so,
 I am going to check the register key   
 open cmd type  regedit   
 navigate to the   
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run  
+<p style='color:yellow'>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</p> 
 
 
 ![]({{ page.image4 | relative_url }})
@@ -94,7 +94,7 @@ Answer format: username1, username2
 </h3>
 <h3 style='color:green'> Correct Answer  : Jenny, Guest </h3> 
 by Powershell, I use the module Get-LocalGroupName to allow me to list administrator group  
-Get-LocalGroupName  -Name administrators
+<p style='color:yellow'>Get-LocalGroupName  -Name administrators</p>
 
 ![]({{ page.image5 | relative_url }})
 
@@ -141,7 +141,7 @@ it means the netcat listener at this port for any coming connection
 <h3 style='color:green'> Correct Answer  : Never  </h3> 
 
 I going to  use same command but change the user name to Jenny :
-<p style='color:white'>  net user Jenny | findstr /B /C:"last logon"</p>
+<p style='color:yellow'>  net user Jenny | findstr /B /C:"last logon"</p>
 
 ![]({{ page.image9 | relative_url }})
 
@@ -217,7 +217,7 @@ check the firewall for port allow incoming connection I found 1337 especial port
 <h3 style='color:red'> Qesution 16 : Check for DNS poisoning, what site was targeted? </h3>
 <h3 style='color:green'> Correct Answer  : google.com  </h3> 
 
-as the host file  the target is  google.com
+see the answer Qesution 13 
  
 ![]({{ page.image17 | relative_url }})
 
