@@ -217,7 +217,7 @@ check the firewall for port allow incoming connection I found 1337 especial port
 <h3 style='color:red'> Qesution 16 : Check for DNS poisoning, what site was targeted? </h3>
 <h3 style='color:green'> Correct Answer  : google.com  </h3> 
 
-see the answer Qesution 13 
+as the host file  the target is  google.com
  
 ![]({{ page.image17 | relative_url }})
 
